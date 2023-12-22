@@ -1,0 +1,10 @@
+name: Hello
+
+on: push 
+jobs:
+  Hello:
+     runs-on: ubun-latest
+      steps:
+      - uses: actions/checkout@v1
+      - name: print HEllo
+        run:echo "hello omar"
